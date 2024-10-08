@@ -1,2 +1,8 @@
-54.179.213.175
-54.179.15.7
+[web_servers]
+54.169.251.31
+
+[db_servers]
+54.254.20.188 
+
+[all:vars]
+ansible_ssh_user=ubuntu
