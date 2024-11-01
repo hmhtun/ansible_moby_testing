@@ -1,8 +1,0 @@
-[web_servers]
-10.1.1.1
-
-[db_servers]
-20.2.2.2 
-
-[all:vars]
-ansible_ssh_user=ubuntu
