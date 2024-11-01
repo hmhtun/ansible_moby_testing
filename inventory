@@ -1,15 +1,8 @@
 [web_servers]
-<<<<<<< HEAD
-13.250.47.121
+10.10.10.10
 
 [db_servers]
-54.169.188.114 
-=======
-10.1.1.1
-
-[db_servers]
-20.2.2.2 
->>>>>>> 7a3e96cf07692f6635d2047ae8fa29348dcb46be
+20.20.20.20
 
 [all:vars]
 ansible_ssh_user=ubuntu
