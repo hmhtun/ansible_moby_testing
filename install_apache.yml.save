@@ -1,0 +1,23 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install apache2 package & update repo index
+    apt:
+      name: apache2
+      state: latest
+      update_cache: yes
+    when: ansible_distribution_version == "Ubuntu"
+  - name: update repository index
+    dnf:
+      update_cache: yes
+    when: ansible_distribution_version == "CentOS"
+
+  - name: install apache2 package & update repo index
+    dnf:
+      name: httpd
+      state: latest
+      update_cache: yes
+    when: ansible_distribution_version == "CentOS"
