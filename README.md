@@ -1,3 +1,3 @@
 # ansible_moby_testing
-This is my ANSIBLE Repo For My First Try!
+This is my ANSIBLE Repo!
 Let start from zero!
